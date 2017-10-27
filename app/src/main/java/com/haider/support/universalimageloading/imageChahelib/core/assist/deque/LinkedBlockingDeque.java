@@ -231,7 +231,7 @@ public class LinkedBlockingDeque<E>
     }
 
     /**
-     * Removes and returns first element, or null if empty.
+     * Removes and returns first element, or null if empty_icon.
      */
     private E unlinkFirst() {
         // assert lock.isHeldByCurrentThread();
@@ -253,7 +253,7 @@ public class LinkedBlockingDeque<E>
     }
 
     /**
-     * Removes and returns last element, or null if empty.
+     * Removes and returns last element, or null if empty_icon.
      */
     private E unlinkLast() {
         // assert lock.isHeldByCurrentThread();
@@ -643,12 +643,12 @@ public class LinkedBlockingDeque<E>
     /**
      * Retrieves and removes the head of the queue represented by this deque.
      * This method differs from {@link #poll poll} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #removeFirst() removeFirst}.
      *
      * @return the head of the queue represented by this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     public E remove() {
         return removeFirst();
@@ -669,12 +669,12 @@ public class LinkedBlockingDeque<E>
     /**
      * Retrieves, but does not remove, the head of the queue represented by
      * this deque.  This method differs from {@link #peek peek} only in that
-     * it throws an exception if this deque is empty.
+     * it throws an exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #getFirst() getFirst}.
      *
      * @return the head of the queue represented by this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     public E element() {
         return getFirst();
@@ -963,7 +963,7 @@ public class LinkedBlockingDeque<E>
 
     /**
      * Atomically removes all of the elements from this deque.
-     * The deque will be empty after this call returns.
+     * The deque will be empty_icon after this call returns.
      */
     public void clear() {
         final ReentrantLock lock = this.lock;

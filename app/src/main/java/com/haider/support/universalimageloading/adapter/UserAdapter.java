@@ -48,9 +48,9 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.MyViewHolder> 
         this.usersList = usersList;
 
         options = new DisplayImageOptions.Builder()
-                .showImageOnLoading(R.drawable.placeholder)
-                .showImageForEmptyUri(R.drawable.empty)
-                .showImageOnFail(R.drawable.error)
+                .showImageOnLoading(R.drawable.placeholder_icon)
+                .showImageForEmptyUri(R.drawable.empty_icon)
+                .showImageOnFail(R.drawable.error_icon)
                 .cacheInMemory(true)
                 .cacheOnDisk(true)
                 .considerExifParams(true)

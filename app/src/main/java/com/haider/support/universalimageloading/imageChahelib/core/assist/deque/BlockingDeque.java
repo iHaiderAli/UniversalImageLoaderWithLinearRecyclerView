@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * A {@link Deque} that additionally supports blocking operations that wait
- * for the deque to become non-empty when retrieving an element, and wait for
+ * for the deque to become non-empty_icon when retrieving an element, and wait for
  * space to become available in the deque when storing an element.
  * <p/>
  * <p><tt>BlockingDeque</tt> methods come in four forms, with different ways
@@ -481,23 +481,23 @@ public interface BlockingDeque<E> extends BlockingQueue<E>, Deque<E> {
      * Retrieves and removes the head of the queue represented by this deque
      * (in other words, the first element of this deque).
      * This method differs from {@link #poll poll} only in that it
-     * throws an exception if this deque is empty.
+     * throws an exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #removeFirst() removeFirst}.
      *
      * @return the head of the queue represented by this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E remove();
 
     /**
      * Retrieves and removes the head of the queue represented by this deque
      * (in other words, the first element of this deque), or returns
-     * <tt>null</tt> if this deque is empty.
+     * <tt>null</tt> if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #pollFirst()}.
      *
-     * @return the head of this deque, or <tt>null</tt> if this deque is empty
+     * @return the head of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E poll();
 
@@ -532,23 +532,23 @@ public interface BlockingDeque<E> extends BlockingQueue<E>, Deque<E> {
      * Retrieves, but does not remove, the head of the queue represented by
      * this deque (in other words, the first element of this deque).
      * This method differs from {@link #peek peek} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #getFirst() getFirst}.
      *
      * @return the head of this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E element();
 
     /**
      * Retrieves, but does not remove, the head of the queue represented by
      * this deque (in other words, the first element of this deque), or
-     * returns <tt>null</tt> if this deque is empty.
+     * returns <tt>null</tt> if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #peekFirst() peekFirst}.
      *
-     * @return the head of this deque, or <tt>null</tt> if this deque is empty
+     * @return the head of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E peek();
 

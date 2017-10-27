@@ -152,7 +152,7 @@ import java.util.Stack;
  * that do allow null elements are strongly encouraged <i>not</i> to
  * take advantage of the ability to insert nulls.  This is so because
  * <tt>null</tt> is used as a special return value by various methods
- * to indicated that the deque is empty.
+ * to indicated that the deque is empty_icon.
  * <p/>
  * <p><tt>Deque</tt> implementations generally do not define
  * element-based versions of the <tt>equals</tt> and <tt>hashCode</tt>
@@ -243,36 +243,36 @@ public interface Deque<E> extends Queue<E> {
     /**
      * Retrieves and removes the first element of this deque.  This method
      * differs from {@link #pollFirst pollFirst} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      *
      * @return the head of this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E removeFirst();
 
     /**
      * Retrieves and removes the last element of this deque.  This method
      * differs from {@link #pollLast pollLast} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      *
      * @return the tail of this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E removeLast();
 
     /**
      * Retrieves and removes the first element of this deque,
-     * or returns <tt>null</tt> if this deque is empty.
+     * or returns <tt>null</tt> if this deque is empty_icon.
      *
-     * @return the head of this deque, or <tt>null</tt> if this deque is empty
+     * @return the head of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E pollFirst();
 
     /**
      * Retrieves and removes the last element of this deque,
-     * or returns <tt>null</tt> if this deque is empty.
+     * or returns <tt>null</tt> if this deque is empty_icon.
      *
-     * @return the tail of this deque, or <tt>null</tt> if this deque is empty
+     * @return the tail of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E pollLast();
 
@@ -280,36 +280,36 @@ public interface Deque<E> extends Queue<E> {
      * Retrieves, but does not remove, the first element of this deque.
      * <p/>
      * This method differs from {@link #peekFirst peekFirst} only in that it
-     * throws an exception if this deque is empty.
+     * throws an exception if this deque is empty_icon.
      *
      * @return the head of this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E getFirst();
 
     /**
      * Retrieves, but does not remove, the last element of this deque.
      * This method differs from {@link #peekLast peekLast} only in that it
-     * throws an exception if this deque is empty.
+     * throws an exception if this deque is empty_icon.
      *
      * @return the tail of this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E getLast();
 
     /**
      * Retrieves, but does not remove, the first element of this deque,
-     * or returns <tt>null</tt> if this deque is empty.
+     * or returns <tt>null</tt> if this deque is empty_icon.
      *
-     * @return the head of this deque, or <tt>null</tt> if this deque is empty
+     * @return the head of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E peekFirst();
 
     /**
      * Retrieves, but does not remove, the last element of this deque,
-     * or returns <tt>null</tt> if this deque is empty.
+     * or returns <tt>null</tt> if this deque is empty_icon.
      *
-     * @return the tail of this deque, or <tt>null</tt> if this deque is empty
+     * @return the tail of this deque, or <tt>null</tt> if this deque is empty_icon
      */
     E peekLast();
 
@@ -402,24 +402,24 @@ public interface Deque<E> extends Queue<E> {
      * Retrieves and removes the head of the queue represented by this deque
      * (in other words, the first element of this deque).
      * This method differs from {@link #poll poll} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #removeFirst()}.
      *
      * @return the head of the queue represented by this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E remove();
 
     /**
      * Retrieves and removes the head of the queue represented by this deque
      * (in other words, the first element of this deque), or returns
-     * <tt>null</tt> if this deque is empty.
+     * <tt>null</tt> if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #pollFirst()}.
      *
      * @return the first element of this deque, or <tt>null</tt> if
-     * this deque is empty
+     * this deque is empty_icon
      */
     E poll();
 
@@ -427,24 +427,24 @@ public interface Deque<E> extends Queue<E> {
      * Retrieves, but does not remove, the head of the queue represented by
      * this deque (in other words, the first element of this deque).
      * This method differs from {@link #peek peek} only in that it throws an
-     * exception if this deque is empty.
+     * exception if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #getFirst()}.
      *
      * @return the head of the queue represented by this deque
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E element();
 
     /**
      * Retrieves, but does not remove, the head of the queue represented by
      * this deque (in other words, the first element of this deque), or
-     * returns <tt>null</tt> if this deque is empty.
+     * returns <tt>null</tt> if this deque is empty_icon.
      * <p/>
      * <p>This method is equivalent to {@link #peekFirst()}.
      *
      * @return the head of the queue represented by this deque, or
-     * <tt>null</tt> if this deque is empty
+     * <tt>null</tt> if this deque is empty_icon
      */
     E peek();
 
@@ -480,7 +480,7 @@ public interface Deque<E> extends Queue<E> {
      *
      * @return the element at the front of this deque (which is the top
      * of the stack represented by this deque)
-     * @throws NoSuchElementException if this deque is empty
+     * @throws NoSuchElementException if this deque is empty_icon
      */
     E pop();
 

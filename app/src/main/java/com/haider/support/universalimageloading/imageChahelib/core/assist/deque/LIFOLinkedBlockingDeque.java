@@ -34,11 +34,11 @@ public class LIFOLinkedBlockingDeque<T> extends LinkedBlockingDeque<T> {
 
 	/**
 	 * Retrieves and removes the first element of this deque. This method differs from {@link #pollFirst pollFirst} only
-	 * in that it throws an exception if this deque is empty.
+	 * in that it throws an exception if this deque is empty_icon.
 	 * 
 	 * @return the head of this deque
 	 * @throws NoSuchElementException
-	 *             if this deque is empty
+	 *             if this deque is empty_icon
 	 */
 	@Override
 	public T remove() {

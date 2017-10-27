@@ -64,7 +64,7 @@ import java.util.regex.Pattern;
  * edited then {@link #edit} will return null.
  * <ul>
  * <li>When an entry is being <strong>created</strong> it is necessary to
- * supply a full set of values; the empty value should be used as a
+ * supply a full set of values; the empty_icon value should be used as a
  * placeholder if necessary.
  * <li>When an entry is being <strong>edited</strong>, it is not necessary
  * to supply data for every value; values default to their previous
@@ -244,7 +244,7 @@ final class DiskLruCache implements Closeable {
 			}
 		}
 
-		// Create a new empty cache.
+		// Create a new  cache.
 		directory.mkdirs();
 		cache = new DiskLruCache(directory, appVersion, valueCount, maxSize, maxFileCount);
 		cache.rebuildJournal();
