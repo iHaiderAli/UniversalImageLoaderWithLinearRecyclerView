@@ -1,4 +1,4 @@
-# UniversalImageLoaderWithRecyclerView
+# Universal Image Loader With Linear Recycler View
 
 I want to provide code with the latest recycler view that will have powerful, flexible and highly customizable instrument for image loading, caching and displaying. It provides a lot of configuration options and good control over the image loading and caching process.
 
