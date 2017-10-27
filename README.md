@@ -30,5 +30,6 @@ I want to provide code with the latest recycler view that will have powerful, fl
 Gmail: ihaiderali.arif@gmail.com
 Skype: haider7577 
 Linked in: https://www.linkedin.com/in/haider-ali-203ab7126/
+```
 
 
